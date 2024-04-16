@@ -1,0 +1,866 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.AnaBaşlık {
+    height: 88px;
+    width: 1519.2px;
+    padding: 0 30px 0 30px;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    background-color: #000000;
+    color: white;
+}
+
+.AnaBaşlık .logo-başlık {
+    height: 49.6px;
+    width: 1313.28px;
+    margin: 19px 73px 19px 73px;
+    min-height: auto;
+    max-width: 1900px;
+    min-width: auto;
+    display: flex;
+    /* border: 1px solid wheat; */
+    justify-content: space-between;
+}
+
+.AnaBaşlık .logo-başlık .Logo , p {
+    font-size: 25px !important;
+    line-height: 23px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.AnaBaşlık .logo-başlık .Logo p:hover{
+    text-decoration: underline solid rgb(255, 255, 255);
+}
+
+.AnaBaşlık .logo-başlık .Logo p,
+span {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25.5px;
+    text-decoration: none solid rgb(25, 26, 27);
+    cursor: pointer;
+}
+
+
+.AnaBaşlık .logo-başlık .btn{
+    height: 49.6px;
+    width: 919.287px;
+    min-height: auto;
+    max-width: auto;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.AnaBaşlık .logo-başlık .btn .btn--1{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    /* vertical-align: middle; */
+    white-space: nowrap;
+    background-color: #191A1B;
+    height: 49.6px;
+    width: 230.675px;
+    border: 1px solid #FFFFFF;
+    margin: 0 0 0 16px;
+    padding: 6px 22px 6px 22px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+
+}
+
+.AnaBaşlık .logo-başlık .btn .btn--2{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    /* vertical-align: middle; */
+    white-space: nowrap;
+    background-color: #4C5FD5;
+    height: 49.6px;
+    width: 139.938px;
+    min-width: auto;
+    min-height: auto;
+    border: 1px solid #4C5FD5;
+    margin: 0 0 0 16px;
+    padding: 6px 32px 6px 25px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+   transition: all 1s;
+}
+
+.AnaBaşlık .logo-başlık .btn .btn--2:hover{
+    background-color: white;
+    color: #000000;
+}
+
+.hero-container{
+
+    height: 396.6px;
+    width: 1519.2px;
+    padding:80px 30px 115px 30px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: #DADBF1;
+
+    
+}
+
+.hero-container .hero-iki{
+    height: 201.6px;
+    width: 720px;
+    max-width: 720px;
+    position: relative;
+    display: block;
+    z-index: 2;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 0 auto;
+
+    
+}
+
+.hero-container .hero-iki h1 {
+    font-size: 70px;
+    letter-spacing: -4px;
+    line-height: 120px;
+    text-align: center;
+    
+}
+
+.hero-container .hero-iki input{
+    font-size: 20px;
+    line-height: 32px;
+    cursor: text;
+    border: 1px solid black;
+    height: 65px;
+    width: 720px;
+    padding: 16px;
+    border-radius: 5px;
+    margin-top: -18px;
+}
+.hero-container .hero-iki img{
+    position: relative;
+    top: 35px;
+    left: 330px;
+    cursor: pointer;
+    
+}
+
+.hero-container .hero-iki img:hover{
+    transform: scale(1.5);
+    
+}
+
+/* main{
+    height: 1378.6px;
+    width: 1519.2px;
+    display: block;
+    border: 1px solid black;
+ 
+} */
+
+.container{
+    height: 854px;
+    width: 1519.2px;
+    display: block;
+    border: 1px solid black;
+    margin: 0 auto;
+    
+}
+
+.container .kategori-list{
+    height: 854px;
+    width: 1300.35px;
+    margin: 0 -15px 0 150px;
+    display: flex;
+    /* border: 1px solid black; */
+
+    
+}
+
+.kategori-list .lits-iki{
+    height: 238px;
+    width: 598.675px;
+    margin: 130px 0 48px 0;
+    padding: 0 15px 0 0;
+    min-height: 115px;
+    min-width: auto;
+    position: relative;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.kategori-list .lits-iki .icon-bir{
+    height: 90px;
+    width: 90.3px;
+    margin: 50px 0 0 0;
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    /* border: 1px solid black; */
+
+
+}
+
+.kategori-list .lits-iki .icon-bir img{
+    height: 88px;
+    width: 88px;
+    margin: 0 95px 0 0;
+    max-height: 120px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+    display: block;
+    overflow: clip;
+
+
+}
+
+
+
+.kategori-list .lits-iki .title-ana{
+    display: block;
+    height: 60px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left:22px;
+    
+}
+
+.kategori-list .lits-iki .title-ana h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    padding-top:25px ;
+    white-space: nowrap; /* alt satıra inme */
+}
+
+.kategori-list .lits-iki .alt-title{
+    display: block;
+    height: 200px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: -135px;
+}
+
+.kategori-list .lits-iki .alt-title p{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 32px;
+    display: block;
+    padding-bottom: 25px;   
+    width:450px;
+  white-space: nowrap; /* alt satıra inme */
+  
+ 
+}
+
+.kategori-list .lits-iki .alt-title a{
+font-size: 20px;
+line-height: 28px;
+word-spacing:0px;
+color: #4C5FD5;
+text-decoration: none;
+ }
+
+ .kategori-list .lits-iki .alt-title a:hover{
+    text-decoration: underline solid rgb(76,95,213);
+ }
+
+ 
+
+ /* -------------------------Bölüm iki--------------------------------------- */
+
+ .kategori-list .lits-üç{
+    height: 238px;
+    width: 598.675px;
+    margin: 130px 0 48px 0;
+    padding: 0 15px 0 105px;
+    min-height: 115px;
+    min-width: auto;
+    position: relative;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.kategori-list .lits-üç .icon-iki{
+    height: 90px;
+    width: 90.3px;
+    margin: 50px 0 0 0;
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    /* border: 1px solid black; */
+
+
+}
+
+.kategori-list .lits-üç .icon-iki img{
+    height: 88px;
+    width: 88px;
+    margin: 0 95px 0 0;
+    max-height: 120px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+    display: block;
+    overflow: clip;
+
+
+}
+
+
+
+.kategori-list .lits-üç .title-ana-iki{
+    display: block;
+    height: 60px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left:22px;
+    
+}
+
+.kategori-list .lits-üç .title-ana-iki h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    padding-top:25px ;
+    white-space: nowrap; /* alt satıra inme */
+}
+
+.kategori-list .lits-üç .alt-title-iki{
+    display: block;
+    height: 200px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: -150px;
+}
+
+.kategori-list .lits-üç .alt-title-iki p{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 32px;
+    display: block;
+    padding-bottom: 25px;   
+    width:450px;
+  white-space: nowrap; /* alt satıra inme */
+  
+ 
+}
+
+.kategori-list .lits-üç .alt-title-iki a{
+font-size: 20px;
+line-height: 28px;
+word-spacing:0px;
+color: #4C5FD5;
+text-decoration: none;
+ }
+
+ .kategori-list .lits-üç .alt-title-iki a:hover{
+    text-decoration: underline solid rgb(76,95,213);
+ }
+
+
+  /* -------------------------Bölüm üç--------------------------------------- */
+  .kategori-list .lits-dört{
+    height: 238px;
+    width: 598.675px;
+    margin: 130px 0 48px 0;
+    padding: 0 15px 0 0;
+    min-height: 115px;
+    min-width: auto;
+    position: relative;
+    display: flex;
+    /* border: 1px solid black; */
+    top: 238px;
+    right: 1197px;
+}
+
+.kategori-list .lits-dört .icon-üç{
+    height: 90px;
+    width: 90.3px;
+    margin: 50px 0 0 0;
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    /* border: 1px solid black; */
+
+
+}
+
+.kategori-list .lits-dört .icon-üç img{
+    height: 88px;
+    width: 88px;
+    margin: 0 95px 0 0;
+    max-height: 120px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+    display: block;
+    overflow: clip;
+
+
+}
+
+
+
+.kategori-list .lits-dört .title-ana-üç{
+    display: block;
+    height: 60px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left:22px;
+    
+}
+
+.kategori-list .lits-dört .title-ana-üç h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    padding-top:25px ;
+    white-space: nowrap; /* alt satıra inme */
+}
+
+.kategori-list .lits-dört .alt-title-üç{
+    display: block;
+    height: 200px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: -456px;
+}
+
+.kategori-list .lits-dört .alt-title-üç p{
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 32px;
+    display: block;
+    padding-bottom: 25px;   
+    width:450px;
+  white-space: nowrap; /* alt satıra inme */
+  
+ 
+}
+
+.kategori-list .lits-dört .alt-title-üç a{
+font-size: 20px;
+line-height: 28px;
+word-spacing:0px;
+color: #4C5FD5;
+text-decoration: none;
+ }
+
+ .kategori-list .lits-dört .alt-title-üç a:hover{
+    text-decoration: underline solid rgb(76,95,213);
+ }
+
+  /* -------------------------Bölüm dört--------------------------------------- */
+  .kategori-list .lits-beş{
+    height: 238px;
+    width: 598.675px;
+    margin: 130px 0 48px 0;
+    padding: 0 15px 0 105px;
+    min-height: 115px;
+    min-width: auto;
+    position: relative;
+    display: flex;
+    /* border: 1px solid black; */
+    top: 238px;
+    right: 1197px;
+}
+
+.kategori-list .lits-beş .icon-dört{
+    height: 90px;
+    width: 90.3px;
+    margin: 50px 0 0 0;
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    /* border: 1px solid black; */
+
+
+}
+
+.kategori-list .lits-beş .icon-dört img{
+    height: 88px;
+    width: 88px;
+    margin: 0 95px 0 0;
+    max-height: 120px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+    display: block;
+    overflow: clip;
+
+
+}
+
+
+
+.kategori-list .lits-beş .title-ana-dört{
+    display: block;
+    height: 60px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left:22px;
+    
+}
+
+.kategori-list .lits-beş .title-ana-dört h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    padding-top:25px ;
+    white-space: nowrap; /* alt satıra inme */
+}
+
+.kategori-list .lits-beş .alt-title-dört{
+    display: block;
+    height: 200px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: -456px;
+}
+
+.kategori-list .lits-beş .alt-title-dört p{
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 32px;
+    display: block;
+    padding-bottom: 25px;   
+    width:450px;
+  white-space: nowrap; /* alt satıra inme */
+  
+ 
+}
+
+.kategori-list .lits-beş .alt-title-dört a{
+font-size: 20px;
+line-height: 28px;
+word-spacing:0px;
+color: #4C5FD5;
+text-decoration: none;
+ }
+
+.kategori-list .lits-beş .alt-title-dört a:hover{
+    text-decoration: underline solid rgb(76,95,213);
+ }
+  /* -------------------------Bölüm altı--------------------------------------- */
+  .kategori-list .lits-altı{
+    height: 238px;
+    width: 598.675px;
+    margin: 130px 0 48px 0;
+    padding: 0 15px 0 0;
+    min-height: 115px;
+    min-width: auto;
+    position: relative;
+    display: flex;
+    /* border: 1px solid black; */
+    top: 475px;
+    right: 2394px;
+}
+
+.kategori-list .lits-altı .icon-beş{
+    height: 90px;
+    width: 90.3px;
+    margin: 50px 0 0 0;
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    /* border: 1px solid black; */
+
+
+}
+
+.kategori-list .lits-altı .icon-beş img{
+    height: 88px;
+    width: 88px;
+    margin: 0 95px 0 0;
+    max-height: 120px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+    display: block;
+    overflow: clip;
+
+
+}
+
+
+
+.kategori-list .lits-altı .title-ana-beş{
+    display: block;
+    height: 60px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left:22px;
+    
+}
+
+.kategori-list .lits-altı .title-ana-beş h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    padding-top:25px ;
+    white-space: nowrap; /* alt satıra inme */
+}
+
+.kategori-list .lits-altı .alt-title-beş{
+    display: block;
+    height: 200px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: -155px;
+}
+
+.kategori-list .lits-altı .alt-title-beş p{
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 32px;
+    display: block;
+    padding-bottom: 25px;   
+    width:450px;
+  white-space: nowrap; /* alt satıra inme */
+  
+ 
+}
+
+.kategori-list .lits-altı .alt-title-beş a{
+font-size: 20px;
+line-height: 28px;
+word-spacing:0px;
+color: #4C5FD5;
+text-decoration: none;
+ }
+
+.kategori-list .lits-altı .alt-title-beş a:hover{
+    text-decoration: underline solid rgb(76,95,213);
+ }
+  /* -------------------------Bölüm yedi--------------------------------------- */
+  .kategori-list .lits-yedi{
+    height: 238px;
+    width: 598.675px;
+    margin: 130px 0 48px 0;
+    padding: 0 15px 0 105px;
+    min-height: 115px;
+    min-width: auto;
+    position: relative;
+    display: flex;
+    /* border: 1px solid black; */
+    top: 474px;
+    right: 2394px;
+}
+
+.kategori-list .lits-yedi .icon-altı{
+    height: 90px;
+    width: 90.3px;
+    margin: 50px 0 0 0;
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    /* border: 1px solid black; */
+
+
+}
+
+.kategori-list .lits-yedi .icon-altı img{
+    height: 88px;
+    width: 88px;
+    margin: 0 95px 0 0;
+    max-height: 120px;
+    min-height: auto;
+    max-width: 100%;
+    min-width: auto;
+    display: block;
+    overflow: clip;
+
+
+}
+
+
+
+.kategori-list .lits-yedi .title-ana-altı{
+    display: block;
+    height: 60px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left:22px;
+    
+}
+
+.kategori-list .lits-yedi .title-ana-altı h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    padding-top:25px ;
+    white-space: nowrap; /* alt satıra inme */
+}
+
+.kategori-list .lits-yedi .alt-title-altı{
+    display: block;
+    height: 200px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: -155px;
+}
+
+.kategori-list .lits-yedi .alt-title-altı p{
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 32px;
+    display: block;
+    padding-bottom: 25px;   
+    width:450px;
+  white-space: nowrap; /* alt satıra inme */
+  
+ 
+}
+
+.kategori-list .lits-yedi .alt-title-altı a{
+font-size: 20px;
+line-height: 28px;
+word-spacing:0px;
+color: #4C5FD5;
+text-decoration: none;
+ }
+
+.kategori-list .lits-yedi .alt-title-altı a:hover{
+    text-decoration: underline solid rgb(76,95,213);
+ }
+  /* -------------------------Bölüm sekiz--------------------------------------- */
+
+  ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: black;
+  color:white;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* font-family: "Caudex", serif; */
+  /* font-family: "Roboto Serif", serif; */
+}
+.container {
+  flex: 1;
+}
+
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px black solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #000000;
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
